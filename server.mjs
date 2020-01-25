@@ -11,9 +11,9 @@ function new_lock(){
 //PROGRAMME ENTRY POINT=========================================================
 var Server = express();
 
-Server.get("/gd/*",async (Req,Res)=>{
+Server.get("/*",async (Req,Res)=>{
   var Url     = Req.url;
-  var Id      = Url.replace("/gd/","");
+  var Id      = Url.replace("/","");
   var Gd_Url  = `https://drive.google.com/uc?id=${Id}`;
 
   //make request to Google Drive
