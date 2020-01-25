@@ -1,0 +1,23 @@
+{
+  "name": "gdfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://datdinhquoc:753ef29995596ed7a728e13030818b648d9c931d@github.com/datdinhquoc/gdfile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datdinhquoc/gdfile/issues"
+  },
+  "homepage": "https://github.com/datdinhquoc/gdfile#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
