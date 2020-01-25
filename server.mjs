@@ -29,5 +29,5 @@ Server.get("/gd/*",async (Req,Res)=>{
   Res.send(Content);
 });
 
-Server.listen(80);
+Server.listen(process.env.PORT);
 //EOF
